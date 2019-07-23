@@ -1,0 +1,29 @@
+.footer-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 1.2rem;
+	padding: 0 0.2rem;
+	.all-wrapper {
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	button {
+		width: 2rem;
+		height: 0.76rem;
+		background-color: rgb(189,17,17);
+		border-radius: 0.38rem;
+		color: #fff;
+		font-size: 0.32rem;
+	}
+	.total-price-wrapper {
+		text-align: right;
+		flex-grow:1;
+		padding-right: 0.2rem;
+		em {
+			color: rgb(191,17,17);
+			font-style: normal;
+		}
+	}
+}

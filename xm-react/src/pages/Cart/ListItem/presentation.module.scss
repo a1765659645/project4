@@ -1,0 +1,24 @@
+a.avatar-wrapper {
+	flex-shrink: 0;
+	width: 1.72rem;
+	height: 1.72rem;
+	background-color: rgba(0,0,0,0.05);
+	border-radius: 0.08rem;
+	margin: 0 0.2rem;
+	img {
+		width: 100%;
+		height: 100%;
+		transform: scale(0.8);
+	}
+}
+.info {
+	flex-grow: 1;
+	position: relative;
+	a.name { color: rgb(51,51,51); }
+	a.price-wrapper { color: rgb(191,17,17); }
+	.count-wrapper {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+}

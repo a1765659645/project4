@@ -1,0 +1,23 @@
+.header {
+	display: flex;
+	align-items: center;
+	padding: 0.08rem;
+	.logo {
+		img {
+			width: 1.28rem;
+			height: 0.56rem;
+		}
+	}
+	.search {
+		background-color: #eee;
+		flex-grow: 1;
+		padding: 0.1rem;
+		color: #999;
+	}
+	.message {
+		img {
+			width: 0.56rem;
+			height: 0.56rem;
+		}
+	}
+}

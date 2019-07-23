@@ -1,0 +1,17 @@
+ul.list {
+	li {
+		padding: 0.2rem 0;
+		span {
+			display: block;
+			height: 0.48rem;
+			line-height: 0.48rem;
+			text-align: center;
+			color: rgb(51, 51, 51);
+			border-left: 3px solid transparent;
+		}
+		&.active span {
+			color: rgb(132, 95, 63);
+			border-left-color: rgb(132, 95, 63);
+		}
+	}
+}

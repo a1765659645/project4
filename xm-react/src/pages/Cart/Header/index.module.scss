@@ -1,0 +1,28 @@
+.header {
+	height: 0.9rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0);
+	position: relative;
+	span {
+		&.back {
+			position: absolute;
+			left: 0;
+			top: 0;
+			img {
+				width: 0.8rem;
+			}
+		}
+		&.edit {
+			position: absolute;
+			right: 0.2rem;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+	h1 {
+		font-size: 0.32rem;
+		font-weight: normal;
+	}
+}

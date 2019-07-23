@@ -1,0 +1,43 @@
+.header {
+	display: flex;
+	align-items: center;
+	height: 0.76rem;
+	.logo {
+		img {
+			width: 1.28rem;
+			height: 0.56rem;
+		}
+	}
+	.search {
+		background-color: #eee;
+		flex-grow: 1;
+		padding: 0.1rem;
+		color: #999;
+	}
+	.message {
+		img {
+			width: 0.56rem;
+			height: 0.56rem;
+		}
+	}
+}
+.content {
+	flex: 1;
+	overflow: auto;
+	display: flex;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	.left {
+		width: 1.5rem;
+		flex-shrink: 0;
+		border-right: 1px solid #ccc;
+		overflow: auto;
+	}
+	.right {
+		flex-grow: 1;
+		overflow: auto;
+	}
+}
+.footer {
+	flex: none;
+}

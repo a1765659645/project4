@@ -1,0 +1,15 @@
+.num-count {
+	width: 1.8rem;
+	height: 0.4rem;
+	display: flex;
+	span {
+		flex: 0 0 auto;
+		width: 0.52rem;
+		text-align: center;
+		font-weight: bold;
+		&.count {
+			flex-grow: 1;
+			background-color: rgb(244,244,244);
+		}
+	}
+}

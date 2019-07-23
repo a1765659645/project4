@@ -1,0 +1,43 @@
+.header-top {
+	position: relative;
+	height: 0.9rem;
+	a {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 0.9rem;
+		height: 0.9rem;
+		text-align: center;
+		line-height: 0.9rem;
+		font-size: 0.4rem;
+	}
+	h1 {
+		height: 100%;
+		line-height: 0.9rem;
+		text-align: center;
+		font-weight: normal;
+		font-size: 0.32rem;
+	}
+}
+.header-nav {
+	overflow: auto;
+	ul {
+		display: flex;
+		li {
+			flex-shrink: 0;
+			a {
+				display: block;
+				padding: 0 0.26rem;
+				height: 0.8rem;
+				line-height: 0.8rem;
+				color:rgb(105,105,105);
+				border-bottom: 0.04rem solid transparent;
+				box-sizing: border-box;
+				&.active {
+					border-bottom-color: rgb(132,95,63);
+					color: rgb(132,95,63);
+				}
+			}
+		}
+	}
+}

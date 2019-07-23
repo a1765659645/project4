@@ -1,0 +1,22 @@
+.avatar-wrapper {
+	padding: 0.26rem 0.26rem 0 0.26rem;
+	img.avatar {
+		width: 100%;
+	}
+}
+ul.list {
+	li {
+		float: left;
+		width: 33.333333%;
+		padding: 0 0.6rem 0 0.26rem;
+		box-sizing: border-box;
+		a {
+			display: block;
+			text-align: center;
+			color: #666;
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
